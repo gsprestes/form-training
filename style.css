@@ -100,3 +100,35 @@ button:hover{
     background-color: mediumblue;
     transition: 800ms;
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: dodgerblue;
+    padding: 60px 40px 40px;
+    color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.footer h3{
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.footer li{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+i:hover{
+    transition: 300ms;
+    color: mediumblue;
+}
