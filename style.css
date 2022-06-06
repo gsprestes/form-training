@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+}
+
+.container{
+    width: 550px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.card{
+    position: relative;
+    padding: 40px 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color: dodgerblue;
+}
+
+.input-wrap{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
