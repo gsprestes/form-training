@@ -40,3 +40,63 @@ body{
     align-items: center;
     margin-bottom: 32px;
 }
+
+label{
+    font-size: 1em;
+    color: #4e585f;
+}
+
+span{
+    color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input{
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    outline: 0;
+    transition: 800ms ease all;
+}
+
+input:focus{
+    border-bottom: 2px solid dodgerblue;
+    box-shadow: 0 1px 0 0 dodgerblue;
+}
+
+input:hover{
+    border-bottom: 2px solid dodgerblue;
+    transition: 100ms;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:focus{
+    outline: 0;
+    box-shadow: none;
+    border-color: none;
+}
+
+button{
+    padding: 15px 60px;
+    background-color: dodgerblue;
+    border-radius: 38px;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: mediumblue;
+    transition: 800ms;
+}
